@@ -52,12 +52,26 @@
 		CGSize size = [[CCDirector sharedDirector] winSize];
         self.figures = [[[NSMutableArray alloc] init] autorelease];
         
+        int width = 4;
+        int height = 4;
+        for (int i = 0; i < width * height; i++) {
+            int spriteHeght = (i + height) / (height);
+            int spriteWidth = i % width + 1;
+            
+            CCSprite *sprite = [CCSprite spriteWithFile:@"btn.png"];
+            CGPoint originalPoint = CGPointMake(size.width/width + spriteWidth, size.height/height / spriteHeght);
+            sprite.position = originalPoint;
+            [self addChild:sprite];
+            [self.figures addObject:sprite];
+        }
+        /*
         CCSprite *sprite = [CCSprite spriteWithFile:@"btn.png"];
         CGPoint originalPoint = CGPointMake(size.width/2, size.height/2);
         self.startPoint = originalPoint;
         sprite.position = originalPoint;
         [self addChild:sprite];
         [self.figures addObject:sprite];
+         */
         
         [[[CCDirector sharedDirector] touchDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];
 	}

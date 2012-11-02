@@ -133,7 +133,7 @@
 		65BFF2611642B31200C65EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BFF2601642B31200C65EC1 /* AppDelegate.m */; };
 		65BFF2641642B31200C65EC1 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BFF2631642B31200C65EC1 /* HelloWorldLayer.m */; };
 		65BFF2671642B31200C65EC1 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BFF2661642B31200C65EC1 /* IntroLayer.m */; };
-		65BFF26E1642B53000C65EC1 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BFF26D1642B53000C65EC1 /* btn.png */; };
+		65EA8F2E1644600A00E88A91 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EA8F2D1644600A00E88A91 /* btn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -399,7 +399,7 @@
 		65BFF2631642B31200C65EC1 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		65BFF2651642B31200C65EC1 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		65BFF2661642B31200C65EC1 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
-		65BFF26D1642B53000C65EC1 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
+		65EA8F2D1644600A00E88A91 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -474,7 +474,7 @@
 		65BFF0E81642B31000C65EC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				65BFF26D1642B53000C65EC1 /* btn.png */,
+				65EA8F2D1644600A00E88A91 /* btn.png */,
 				65BFF0E91642B31000C65EC1 /* Default.png */,
 				65BFF0EB1642B31000C65EC1 /* Default-Landscape~ipad.png */,
 				65BFF0ED1642B31000C65EC1 /* fps_images.png */,
@@ -898,7 +898,7 @@
 				65BFF0FE1642B31000C65EC1 /* Icon@2x.png in Resources */,
 				65BFF1011642B31000C65EC1 /* iTunesArtwork in Resources */,
 				65BFF23F1642B31200C65EC1 /* ChangeLog in Resources */,
-				65BFF26E1642B53000C65EC1 /* btn.png in Resources */,
+				65EA8F2E1644600A00E88A91 /* btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1116,6 +1116,7 @@
 				65BFF26C1642B31300C65EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
